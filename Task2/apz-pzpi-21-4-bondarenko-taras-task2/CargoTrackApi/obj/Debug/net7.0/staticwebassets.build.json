@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lgnpmx22SjnnAqqN9SWmVc89rmx6p+/BkMkrvJdwgK8=",
+  "Source": "CargoTrackApi.Api",
+  "BasePath": "_content/CargoTrackApi.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.3.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CargoTrackApi.Aplication\CargoTrackApi.Application.csproj" />
+    <ProjectReference Include="..\CargoTrackApi.Domain\CargoTrackApi.Domain.csproj" />
+    <ProjectReference Include="..\CargoTrackApi.Infrastructure\CargoTrackApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\CargoTrackApi.Persistance\CargoTrackApi.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
