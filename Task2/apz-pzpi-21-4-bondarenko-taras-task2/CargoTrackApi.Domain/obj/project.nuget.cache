@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "86h/1nLmpPllIwjig2eU6ePSvA6rvsT1j6bEwcOsU496yPGy/oVy7VAPLebIu9Ts3YHqS7DYpKEI76fFPEwmkg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Taras\\Desktop\\apz-pzpi-21-4-bondarenko-taras-task2\\CargoTrackApi.Domain\\CargoTrackApi.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Taras\\.nuget\\packages\\mongodb.bson\\2.25.0\\mongodb.bson.2.25.0.nupkg.sha512",
+    "C:\\Users\\Taras\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Taras\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
