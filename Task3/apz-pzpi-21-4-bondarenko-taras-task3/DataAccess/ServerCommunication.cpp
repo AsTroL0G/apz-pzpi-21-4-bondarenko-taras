@@ -12,20 +12,20 @@ void sendPostRequest(const char* server, int port, string sensorIdTemperature, f
 
         client.stop();
 
-        // Повторне підключення
+        // Reconnect
         if (client.connect(server, port)) {
 
-            // Масив для зберігання форматованого рядка
+            // Array to store the formatted string
             char flonStr[16];
             char flatStr[16];
-            // Форматування числа з плаваючою крапкою в рядок з 6 знаками після коми
+            // Format a floating point number into a string with 6 decimal places
             dtostrf(currentFlon, 1, 6, flonStr);
             dtostrf(currentFlat, 1, 6, flatStr);
 
             postData = "{\"sensorId\":\"" + sensorIdGPS + "\",\"values\":\"" + flatStr + '/' + flonStr + "\",\"measurementTime\":\"" + formattedTimestamp + "\"}";
             sendRequest(client, postData);
 
-            // Закриття підключення
+            // Close the connection
             client.stop();
             Serial.println("POST requests sent");
         }
