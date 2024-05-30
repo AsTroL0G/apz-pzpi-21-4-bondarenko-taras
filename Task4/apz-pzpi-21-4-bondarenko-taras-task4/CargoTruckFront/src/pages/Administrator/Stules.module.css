@@ -1,0 +1,49 @@
+/* styles.css */
+/* styles.css */
+
+.first ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Wrap items to next line if they exceed the width */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.first li {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-right: 10px; /* Add some space between items */
+  margin-bottom: 5px;
+}
+
+.first li:hover {
+  background-color: #f0f0f0;
+}
+
+  
+  .first .modal-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+/* CargoList.module.css */
+.two {
+
+  align-items: center;
+  justify-content: space-between; /* or use another value like 'flex-start' or 'center' based on your layout needs */
+}
+
+.two h2 {
+  margin: 0;
+}
+
+.twoo {
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: blue;
+}
+
