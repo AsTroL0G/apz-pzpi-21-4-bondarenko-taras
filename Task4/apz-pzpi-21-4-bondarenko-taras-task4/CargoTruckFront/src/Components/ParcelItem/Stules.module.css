@@ -1,0 +1,26 @@
+body {
+	
+	font-family: 'Montserrat';
+}
+.container {
+
+	position: relative;
+	margin: 0 auto;
+	max-width: 1920px;
+	padding: 0 300px;
+}
+
+
+/* ParcelItem.css */
+.parcelitem td {
+	padding: 8px;
+	text-align: left;
+	font-size: 14px;
+	white-space: normal; 
+  }
+  
+  .parcelitem .status {
+	color: green;
+	font-weight: bold;
+  }
+  
