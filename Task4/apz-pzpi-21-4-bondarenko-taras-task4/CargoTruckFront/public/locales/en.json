@@ -1,0 +1,87 @@
+{
+  "navbar": {
+      "login": "Login",
+      "logist": "Сontrol panel for the logistician",
+      "admin": "Сontrol panel for the administrator",
+      "register": "Register"
+
+  },
+  "mainpage": {
+    "services": "Our Services",
+    "titleOne": "Cargo tracking",
+    "textTitleOne": "Our users can easily view the status and location of their shipments, both to and from. This makes it possible to be sure of timely delivery and to plan logistics processes without unnecessary hassles.",
+    "titleTwo": "Creation of delivery orders",
+    "textTitleTwo": "We've simplified the delivery ordering process to just a few easy steps. Now you can easily create a new order, specify the cargo details and choose a convenient time and place of delivery.",
+    "titleThree": "Checking the location of the cargo",
+    "textTitleThree": "With the help of our system, you can always find out the exact location of your cargo. This helps you plan your pickup time and provides additional security for your shipment.",
+    "titleFour": "Try",
+    "textTitleFour": "Welcome to our website dedicated to our innovative freight tracking software system. We've created a convenient and efficient tool that helps you stay on top of your shipments."
+  },
+  "Logist":{
+    "cargoList": "List of Cargoes for Processing",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "searchContainer": "Search Nearest Container",
+    "nearestContainer": "Nearest Container",
+    "containerId": "Container ID",
+    "containerCoordinates": "Container Coordinates",
+    "cargoId": "Cargo ID",
+    "description": "Description",
+    "actions": "Actions",
+    "static": "View statistics",
+    "containerDistance": "Distance to the container",
+    "createJourney": "Create Journey",
+    "createSchedule": "Create Schedule",
+    "notice": "Enter the statement",
+    "buton": "Confirm",
+    "createManifest": "Create Manifest"
+  },
+  "Statistic":{
+    "Statistics": "Statistics",
+    "Container ID": "Container ID",
+    "Container Statistics": "Container Statistics",
+    "Container Name": "Container Name",
+    "Container Type": "Container Type",
+    "Number of Trips": "Number of Trips",
+    "Average Load Capacity": "Average Load Capacity",
+    "Volumetric Weight": "Volumetric Weight",
+    "Trip ID": "Trip ID",
+    "Trip Statistics": "Trip Statistics",
+    "Total Weight": "Total Weight",
+    "Average Speed": "Average Speed",
+    "Time Spent": "Time Spent"
+  },
+  
+    "AdminPanel": {
+      "title": "Admin Panel",
+      "users": "Users",
+      "cargos": "Cargos",
+      "drivers": "Drivers",
+      "cars": "Cars",
+      "sensors": "Sensors",
+      "values": "Values",
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete",
+      "name": "Name",
+      "description": "Description",
+      "licensePlate": "License Plate",
+      "type": "Type",
+      "location": "Location",
+      "sensorId": "Sensor ID",
+      "value": "Value",
+      "timestamp": "Timestamp",
+      "createBackup": "Create Backup",
+      "selectTable": "Select Table to Backup",
+      "confirmBackup": "Confirm Backup",
+      "backupSuccess": "Backup created successfully",
+      "backupError": "Error creating backup"
+    
+  }
+  
+   
+}
