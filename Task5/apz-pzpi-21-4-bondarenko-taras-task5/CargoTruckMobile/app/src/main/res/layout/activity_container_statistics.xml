@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Statistics.ContainerStatisticsActivity">
+
+    <!-- EditText для введення ID контейнера -->
+    <EditText
+        android:id="@+id/containerIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter the container number" />
+
+    <!-- TextViews для відображення інформації про контейнер -->
+
+    <TextView
+        android:id="@+id/containerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/containerIdInput"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/containerType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/containerName"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Type: " />
+
+    <TextView
+        android:id="@+id/numberTrips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/containerType"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Number of trips: " />
+
+    <!-- Кругова діаграма -->
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/numberTrips"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

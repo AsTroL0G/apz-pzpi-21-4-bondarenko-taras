@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Statistics.TripStatisticsActivity">
+
+    <!-- EditText для введення ID контейнера -->
+    <EditText
+        android:id="@+id/tripIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Введіть номер контейнера" />
+
+    <!-- TextViews для відображення інформації про контейнер -->
+
+    <TextView
+        android:id="@+id/containerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tripIdInput"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/containerType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/containerName"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Тип: " />
+
+    <TextView
+        android:id="@+id/totalWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/containerType"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Total weight: " />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalWeight"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="Time wasted: " />
+
+
+
+    <!-- Кругова діаграма -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/time"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

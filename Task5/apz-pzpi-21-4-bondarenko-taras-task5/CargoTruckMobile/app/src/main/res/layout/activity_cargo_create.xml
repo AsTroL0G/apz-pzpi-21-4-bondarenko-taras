@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#FFFFFF">
+
+        <!-- Назва -->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="text" />
+
+        <!-- Вага -->
+        <EditText
+            android:id="@+id/et_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight"
+            android:inputType="numberDecimal" />
+
+        <!-- Довжина -->
+        <EditText
+            android:id="@+id/et_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Length"
+            android:inputType="numberDecimal" />
+
+        <!-- Висота -->
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:inputType="numberDecimal" />
+
+        <!-- Ширина -->
+        <EditText
+            android:id="@+id/et_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Width"
+            android:inputType="numberDecimal" />
+
+        <!-- Оголошена ціна -->
+        <EditText
+            android:id="@+id/et_announced_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Announced price"
+            android:inputType="numberDecimal" />
+
+        <!-- ID одержувача -->
+        <Button
+            android:id="@+id/btn_enter_receiver_info"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:backgroundTint="@android:color/background_light"
+            android:padding="16dp"
+            android:text="Enter recipient data"
+            android:textColor="#000000" />
+
+        <!-- Місто відправника -->
+        <EditText
+            android:id="@+id/et_city_sender_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sender's city"
+            android:inputType="text" />
+
+        <!-- Адреса відправника -->
+        <EditText
+            android:id="@+id/et_address_sender_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sender's address"
+            android:inputType="text" />
+
+        <!-- Місто одержувача -->
+        <EditText
+            android:id="@+id/et_city_receiver_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient's city"
+            android:inputType="text" />
+
+        <!-- Адреса одержувача -->
+        <EditText
+            android:id="@+id/et_address_receiver_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient's address"
+            android:inputType="text" />
+
+        <!-- Кнопка збереження -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="16dp"
+            android:textColor="#FFFF"
+            android:text="Create" />
+    </LinearLayout>
+</ScrollView>

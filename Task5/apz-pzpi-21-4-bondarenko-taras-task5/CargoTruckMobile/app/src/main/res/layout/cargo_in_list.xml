@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/cargoForm"
+    android:background="#FFFFFF">
+
+    <!-- Номер відправлення -->
+    <TextView
+        android:id="@+id/cargoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="59 0011 4967 1390"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Дати і міста -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp">
+
+        <!-- Ліва частина з датою і містом -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/cargoCitySender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Львів"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Стрілка -->
+
+        <!-- Права частина з датою і містом -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/cargoCityReceiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Київ"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Статус -->
+    <TextView
+        android:id="@+id/cargoStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Отримана"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Документи -->
+    <TextView
+        android:id="@+id/cargoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Документи"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#0165FF" />
+</LinearLayout>

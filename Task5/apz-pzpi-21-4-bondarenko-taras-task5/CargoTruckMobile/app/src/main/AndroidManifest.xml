@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CargoTruckMobile"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.Adapter.AdminAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".UserAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LogistActivity.LogistCargoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Components.FindContainerDialogFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AcceptCargoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Statistics.TripStatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LogistActivity.LogistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Statistics.ContainerStatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AdminActivity.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Components.MapActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBTANfPlOhztOM5qMF3qBUfnlENACXaWAs" />
+
+        <activity
+            android:name=".Activity.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserCargoActivity.UserCargoReceiver"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserCargoActivity.CreateCargoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserCargoActivity.CargoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CabinetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserCargoActivity.UserCargos"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AuthActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

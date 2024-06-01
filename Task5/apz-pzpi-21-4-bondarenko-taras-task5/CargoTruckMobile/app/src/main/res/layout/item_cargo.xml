@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cargoFormLogist"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/cargoIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargo_number"/>
+
+    <TextView
+        android:id="@+id/cargoNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargo_name"/>
+
+    <TextView
+        android:id="@+id/cargoStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargo_status"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCreateJourney"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/create_journey"/>
+
+        <Button
+            android:id="@+id/btnCreateSchedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/create_schedule"/>
+
+        <Button
+            android:id="@+id/btnCreateManifest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/create_manifest"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_first_name"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/manifest_number" />
+
+    <Button
+        android:id="@+id/btnCreateCargo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/confirm" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#0165FF" />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Activity.AuthActivity">
+
+    <!-- Реєстрація -->
+
+    <TextView
+        android:id="@+id/authTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:text="@string/authorization"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>/>
+
+    <EditText
+        android:id="@+id/authEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/authPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/authButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#0289DA"
+        android:text="@string/login"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/linkToRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/record"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+
+
+</LinearLayout>

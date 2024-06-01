@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">CargoTruckMobile</string>
+    <string name="admin_panel">Панель адміністрування</string>
+    <string name="user">Користувач</string>
+    <string name="cargo">Вантаж</string>
+    <string name="container">Контейнер</string>
+    <string name="sensor">Датчик</string>
+    <string name="car">Автомобіль</string>
+    <string name="driver">Драйвер</string>
+    <string name="backup">Створити резервну копію</string>
+
+    <string name="parcel_number">Номер посилки</string>
+    <string name="sender">Відправник</string>
+    <string name="sender_city">Місто датчика:</string>
+    <string name="sender_address">Адреси:</string>
+    <string name="sender_phone">Телефон:</string>
+    <string name="sender_name">PIB:</string>
+    <string name="receiver">Приймач</string>
+    <string name="receiver_city">Міський приймач:</string>
+    <string name="receiver_address">Адреси:</string>
+    <string name="receiver_phone">Телефон:</string>
+    <string name="receiver_name">PIB:</string>
+    <string name="package_info">ІНФОРМАЦІЯ ПРО ПАКЕТ</string>
+    <string name="dimensions">Розміри:</string>
+    <string name="package_weight">Вага:</string>
+    <string name="package_description">Опис пакета:</string>
+    <string name="delivery_cost">Вартість доставки:</string>
+    <string name="show_map">Погляньте на місце перезавантаження</string>
+
+
+
+    <string name="email">Електронна пошта</string>
+    <string name="password">Пароль</string>
+    <string name="authorization">Авторизація</string>
+    <string name="login">Вхід</string>
+    <string name="record">Я ще не зробив запис у хмарі</string>
+
+
+    <string name="sent_cargos">Відправлені вантажі</string>
+    <string name="createdelivery">Створити доставку</string>
+    <string name="cargos_to_receive">Вантажі для отримання</string>
+    <string name="my_cabinet">Мій кабінет</string>
+    <string name="my_shipments">Мої відправлення</string>
+    <string name="my_pickup">Мої речі для самовивозу</string>
+
+    <string name="register">Зареєструватися</string>
+    <string name="first_name">Моє ім'я</string>
+    <string name="last_name">Прізвище</string>
+    <string name="already_have_account">Вже є обліковий запис</string>
+    <string name="register_button">Зареєструватися</string>
+
+
+    <string name="patronym">По батькові</string>
+    <string name="phone_number">Номер телефону</string>
+    <string name="save">Зберегти</string>
+    <string name="adminanel">Перейти до адміністрування</string>
+    <string name="logist_panel">Панель керування для логіста</string>
+    <string name="sign_out">Вийти</string>
+
+    <string name="cargo_number">Номер</string>
+    <string name="cargo_name">Назва</string>
+    <string name="cargo_status">Статус</string>
+    <string name="create_journey">Створити подорож</string>
+    <string name="create_schedule">Створити розклад</string>
+    <string name="create_manifest">Створити маніфест</string>
+    <string name="manifest_number">Номер маніфесту</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="сargoes_processing">Вантажі для обробки</string>
+
+    <string name="view_container_statistics">Перегляд статистики контейнера</string>
+    <string name="view_trip_statistics">Перегляд статистики поїздки</string>
+    <string name="find_nearest_container">Знайти найближчий контейнер</string>
+    <string name="accept_cargo">Прийняти вантаж</string>
+</resources>

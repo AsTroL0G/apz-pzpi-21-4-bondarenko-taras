@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <!-- Реєстрація -->
+
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/register"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/_2" />
+
+    <EditText
+        android:id="@+id/registerFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/first_name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registerLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/last_name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#0289DA"
+        android:text="@string/register_button"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/userLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/already_have_account"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
